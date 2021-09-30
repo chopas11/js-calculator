@@ -3,15 +3,13 @@
 <p align="center">
     <a href="https://nodejs.org/"><img src="https://img.shields.io/node/v/webpack"/></a>
     <a href=""><img src="https://img.shields.io/npm/v/webpack"/></a>
-    <a href=""><img src="https://img.shields.io/github/repo-size/chopas11/webpack-example"/></a>
-
+    <a href=""><img src="https://img.shields.io/github/repo-size/chopas11/js-calculator"/></a>
 
 </p>
 
 <h2 align="center">Javascript Calculator</h2>
 
 This repository includes Functions and Classes for working with mathematical objects and calculation.
-
 
 ## Installation
 

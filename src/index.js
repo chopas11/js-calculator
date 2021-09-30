@@ -7,22 +7,23 @@ import '@sass/main.sass';
 // ----------------------------------------- Main Application
 
 let matrix = new Matrix();
-matrix.addColumn([1, 3, 5, 6])
+matrix.addColumn([1, 3, 5, 6]);
 
+let matrix5 = [
+  [1, 2, 1, -1, 2],
+  [1, -1, -2, -1, -1],
+  [2, 1, -1, -2, -1],
+  [1, -2, -1, -1, 2],
+  [2, -1, 2, 1, -3],
+];
 let matrix1 = [
-    [1, 2, 1, -1, 2],
-    [1, -1, -2, -1, -1],
-    [2, 1, -1, -2, -1],
-    [1, -2, -1, -1, 2],
-    [2, -1, 2, 1, -3],
-]
-// let matrix1 = [
-//     [0, 0, 6],
-//     [6, -6, 8],
-//     [-17, 8, -4],
-// ]
+  [1, 1, 6],
+  [6, 2, 8],
+  [-1, 8, -4],
+];
 
-console.log(Matrix.getDeterminant(matrix1));
+// console.log(Matrix.getInverseMatrix(matrix1));
+// console.log(Matrix.getDeterminant(matrix1));
 // console.log(Matrix.getDodgsonDeterminant(matrix1));
 // let matrix2 =
 //     [
@@ -43,3 +44,5 @@ console.log(Matrix.getDeterminant(matrix1));
 //         // 3.3 Hours
 //     ];
 
+console.log(15 & (1 + ~15) & ~1);
+console.log(0x2a ^ 0);
