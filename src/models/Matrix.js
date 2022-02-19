@@ -195,4 +195,5 @@ class Matrix {
 Matrix sum and multiplication
 */
 
-module.exports = Matrix;
+// module.exports = Matrix;
+export default Matrix

@@ -1,13 +1,14 @@
 // Classes Import
-import Matrix from './models/Matrix';
+import Matrix from './models/Matrix'
+import Sorting from './models/Sorting'
 
 // Styles Import
-import '@sass/main.sass';
+import '@sass/main.sass'
 
 // ----------------------------------------- Main Application
 
-let matrix = new Matrix();
-matrix.addColumn([1, 3, 5, 6]);
+let matrix = new Matrix()
+matrix.addColumn([1, 3, 5, 6])
 
 let matrix5 = [
   [1, 2, 1, -1, 2],
@@ -15,12 +16,12 @@ let matrix5 = [
   [2, 1, -1, -2, -1],
   [1, -2, -1, -1, 2],
   [2, -1, 2, 1, -3],
-];
+]
 let matrix1 = [
   [1, 1, 6],
   [6, 2, 8],
   [-1, 8, -4],
-];
+]
 
 // console.log(Matrix.getInverseMatrix(matrix1));
 // console.log(Matrix.getDeterminant(matrix1));
@@ -43,3 +44,8 @@ let matrix1 = [
 //         [61, 64, 36, 81, 56, 50, 49, 99, 11, 18 ,62 ,48, 73, 26],
 //         // 3.3 Hours
 //     ];
+
+let arr = [7, 9, 1, 5, 11, 3, 2, 6, 4]
+
+
+console.log(Sorting.insertionDual(arr))
