@@ -19,7 +19,7 @@ Install all nodejs dependencies:
 
 To start project in development mode, run:
 
-    $ npm run serve
+    $ npm start
 
 To build project for production, run:
 
